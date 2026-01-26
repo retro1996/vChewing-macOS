@@ -13,8 +13,9 @@
 [branch "main"]
         remote = origin
         merge = refs/heads/main
-[submodule "Source/Data"]
-	    url = https://gitlink.org.cn/vChewing/vChewing-VanguardLexicon.git
+    	vscode-merge-base = origin/main
+[submodule "DictionaryData"]
+	    url = https://atomgit.com/vChewing/vChewing-VanguardLexicon.git
 [branch "upd/dev"]
         remote = origin
         merge = refs/heads/upd/dev
